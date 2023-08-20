@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"title": "Afrika Örgü Modelleri",
+		"src": "service1.jpg",
+		"url": "/orgu"
+	},
+	{
+		"id": 2,
+		"title": "Takma Saç Modelleri",
+		"src": "service2.jpeg",
+		"url": "/hat"
+	},
+	{
+		"id": 3,
+		"title": "Rasta Modelleri",
+		"src": "service3.jpg",
+		"url": "/rasta"
+	}
+]
