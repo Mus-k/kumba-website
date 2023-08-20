@@ -5,7 +5,6 @@ import "react-image-lightbox/style.css";
 import "../styles/Gallery.css";
 
 export default function Gallery({ items }) {
-  console.log(items);
   const [photoIndex, setPhotoIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,14 +14,16 @@ export default function Gallery({ items }) {
   };
 
   return (
-    <div className="">
+    <div className="gallery flex gap-0">
+      
       {items.map((item, index) => (
-        <img
-          key={index}
-          src={`/images/${item.imageUrl}`}
-          alt={item.title}
-          onClick={() => openLightbox(index)}
-        />
+        <div key={index}>
+          <img
+            src={`/images/${item.imageUrl}`}
+            alt={item.title}
+            onClick={() => openLightbox(index)}
+          />
+        </div>
       ))}
 
       {isOpen && (
