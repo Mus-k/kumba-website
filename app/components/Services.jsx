@@ -25,7 +25,9 @@ export default function Services({ items }) {
 
 	return (
 		<div className="flex flex-col bg-pink-100 items-center w-full justify-center">
-			<h1 className='text-3xl font-bold p-8 flex items-center'>OUR SERVICES</h1>
+			<h1 className="text-3xl font-bold p-8 flex items-center">
+				OUR SERVICES
+			</h1>
 			<div className="flex w-full bg-pink-100 flex-wrap py-5 justify-around items-center">
 				{items.map((item) => (
 					<div
@@ -41,12 +43,12 @@ export default function Services({ items }) {
 								height={500}
 								src={`/images/${item.src}`}
 								alt={item.title}
-								className="w-[330px] h-[300px]"
+								className="w-[330px] h-[300px] md:max-w-[350px]"
 							/>
 							<button
 								className="px-[15px] w-[200px] py-[10px] md:mx-[20px] font-oswald bg-white absolute bottom-[20px]
-              md:bottom-[50px] left-10 right-10 rounded-md text-black/[0.9] text-[15px] md:text-[24px]
-              uppercase font-medium cursor-pointer hover:opacity-90"
+								md:bottom-[50px] left-10 right-10 rounded-md text-black/[0.9] text-[15px] md:text-[24px]
+								uppercase font-medium cursor-pointer hover:opacity-90"
 							>
 								Fazlası gör
 							</button>
