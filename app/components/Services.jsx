@@ -24,9 +24,9 @@ export default function Services({ items }) {
 	// };
 
 	return (
-		<div className="flex flex-col items-center w-full justify-center">
+		<div className="flex flex-col bg-pink-100 items-center w-full justify-center">
 			<h1 className='text-3xl font-bold p-8 flex items-center'>OUR SERVICES</h1>
-			<div className="flex w-full bg-pink-300 flex-wrap py-5 justify-around items-center">
+			<div className="flex w-full bg-pink-100 flex-wrap py-5 justify-around items-center">
 				{items.map((item) => (
 					<div
 						key={item.id}
