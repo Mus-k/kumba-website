@@ -14,10 +14,10 @@ export default function Orgu() {
 	return (
 		<div style={componentStyle} className="pt-[85px] flex flex-col justify-center items-center">
 			<h1 className='text-2xl text-white'>HERE IS WHERE YOU CAN FIND OUR BEAUTIFUL BRADING STYLES</h1>
-			<div className="flex flex-wrap justify-center items-center">
+			<div className="flex flex-wrap justify-around items-center">
 				{orgu.map((item) => (
 					<div key={item.id}>
-						<div className="flex flex-col p-8">
+						<div className="flex flex-col mb-8">
 							<div className="text-white">
 								<h1>{item.title}</h1>
 							</div>
@@ -27,7 +27,7 @@ export default function Orgu() {
 									width={500}
 									height={500}
 									alt={item.title}
-									className="w-[350px] h-[300px]"
+									className="w-[330px] h-[300px]"
 								/>
 								<p className='text-white'>&#36;{item.price}</p>
 								<div className="w-[300px] text-white">
