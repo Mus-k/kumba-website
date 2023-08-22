@@ -124,12 +124,6 @@
 		"url": "orgu16.jpg",
 		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
 		"price": 200
-	},
-	{
-		"id": 19,
-		"title": "Onaltıncı örgü modelleri",
-		"url": "orgu16.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
 	}
+
 ]
