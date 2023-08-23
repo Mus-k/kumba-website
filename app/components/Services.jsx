@@ -24,36 +24,35 @@ export default function Services({ items }) {
 	// };
 
 	return (
-		<div className="flex flex-col bg-pink-100 items-center w-full justify-center">
+		<div className="flex flex-col w-full bg-pink-100 items-center pb-5 justify-center px-5 border-2 border-purple-500">
 			<h1 className="text-3xl font-bold p-8 flex items-center">
 				OUR SERVICES
 			</h1>
-			<div className="flex w-full bg-pink-100 flex-wrap py-5 justify-around items-center">
+			<div className="flex w-full flex-wrap border-2 border-black py-5 justify-around items-center">
 				{items.map((item) => (
-					<div
+					<Link
+						href={item.url}
 						key={item.id}
-						className="flex mb-5 relative justify-center items-cente rounded-sm"
+						className="flex flex-col justify-center items-center flex-wrap border-2 border-green-600 w-[30%] relative"
 					>
-						<Link href={item.url}>
-							<div className="p-4 text-black/[0.9] flex justify-center items-center">
-								<h2 className="text-lg font-medium">{item.title}</h2>
-							</div>
-							<Image
-								width={500}
-								height={500}
-								src={`/images/${item.src}`}
-								alt={item.title}
-								className="w-[330px] h-[300px] md:max-w-[350px]"
-							/>
-							<button
-								className="px-[15px] w-[200px] py-[10px] md:mx-[20px] font-oswald bg-white absolute bottom-[20px]
-								md:bottom-[50px] left-10 right-10 rounded-md text-black/[0.9] text-[15px] md:text-[24px]
+						<div className="p-4 text-black/[0.9] flex justify-center items-center">
+							<h2 className="text-lg font-medium">{item.title}</h2>
+						</div>
+						<Image
+							width={500}
+							height={500}
+							src={`/images/${item.src}`}
+							alt={item.title}
+							className="w-full h-[350px] lg:h-[400px] object-cover"
+						/>
+						<button
+							className="px-4 w-[200px] py-[10px] font-oswald bg-white absolute bottom-[20px]
+								md:bottom-[50px] rounded-md text-black/[0.9] text-[15px] md:text-[24px]
 								uppercase font-medium cursor-pointer hover:opacity-90"
-							>
-								Fazlası gör
-							</button>
-						</Link>
-					</div>
+						>
+							Fazlası gör
+						</button>
+					</Link>
 				))}
 			</div>
 		</div>
