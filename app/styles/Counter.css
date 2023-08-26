@@ -1,0 +1,48 @@
+.countUp {
+  width: 100%;
+}
+.countUp .counter {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.countUp .counter .counter-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.countUp .counter .count {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .countUp .counter {
+    width: 100%;
+    gap: 5px;
+    /* padding: 4px 10px; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .countUp .counter {
+    width: 100%;
+    gap: 0px;
+    /* padding: 4px 10px; */
+  }
+}
+@media screen and (max-width: 750px) {
+  .countUp .counter {
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
