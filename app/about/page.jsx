@@ -1,12 +1,15 @@
 import Image from "next/image";
+import "../styles/About.css";
 export default function About() {
   return (
-    <div className="bg-black h-full w-full flex justify-center items-center pt-10 p-10 ">
-      <div>
-        <h2 className="title">About </h2>
+    <div className="about-page bg-black w-full pt-20 p-6 flex justify-center items-center">
+      <div className="about-wrapper">
+        <h2 className="about-title py-10 text-lg w-full md:text-4xl font-semibold text-white">
+          About{" "}
+        </h2>
 
         <div className="about-container flex flex-row justify-center items-center w-full">
-          <div>
+          <div className="about-left">
             <Image
               src="/basicImages/salon.jpg"
               alt="Picture of the author"
@@ -14,9 +17,11 @@ export default function About() {
               height={500}
             />
           </div>
-          <div>
-            <h1>Our mission</h1>
-            <p>
+          <div className="about-right">
+            <h1 className="text-lg  lg:py-8 md:text-3xl text-white font-semibold">
+              Our mission
+            </h1>
+            <p className="text-white">
               Our mission is to make every client feel confident and beautiful
               by providing top-quality hair braiding, hair extensions, and hair
               weaving services. We believe that everyone deserves to look and
@@ -24,8 +29,8 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="about-bottom">
-          <h2>
+        <div className="about-bottom py-10 ">
+          <h2 className="text-white">
             Come visit us at Kumba Salon and let us help you achieve your hair
             goals!
           </h2>
