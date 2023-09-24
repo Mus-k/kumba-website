@@ -1,7 +1,9 @@
 .gallery {
+  padding-top: 80px;
   width: 100vw;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  background: #000;
 }
 .gallery img {
   object-fit: cover;

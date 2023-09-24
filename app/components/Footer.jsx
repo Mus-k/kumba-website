@@ -31,7 +31,7 @@ const Footer = () => {
 			</div>
 			<div className="bottom">
 				<div className="left">
-					<span className="logo">ALYMCIABRAIDING MASTERS</span>
+					<span className="bottom-logo">ALYMCIABRAIDING MASTERS</span>
 					<span className="copyright">
 						&copy; Copyright 2023. All Right Revserved
 					</span>
