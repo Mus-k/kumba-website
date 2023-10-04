@@ -5,7 +5,7 @@ import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 export default function page() {
 	return (
 		<div className="antialised bg-gray-100">
-			<div className="flex w-full bg-emerald-900 min-h-screen justify-center items-center">
+			<div className="flex w-full bg-black min-h-screen justify-center items-center">
 				<div
 					className="flex flex-col pt-24 md:pt-12 md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full
         max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden"
