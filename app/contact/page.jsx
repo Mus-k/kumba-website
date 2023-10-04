@@ -3,9 +3,16 @@ import { MdEmail, MdLocationOn } from 'react-icons/md';
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 
 export default function page() {
+  const componentStyle = {
+		backgroundImage: "url('/orgu/contactbg.jpg')",
+		backgroundSize: 'cover',
+		backgroundPosition: 'center',
+		backgroundRepeat: 'none',
+	};
+
 	return (
-		<div className="antialised bg-gray-100">
-			<div className="flex w-full bg-black min-h-screen justify-center items-center">
+		<div style={componentStyle} className="antialised bg-gray-100">
+			<div className="flex w-full min-h-screen justify-center items-center">
 				<div
 					className="flex flex-col pt-24 md:pt-12 md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full
         max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden"
@@ -25,7 +32,7 @@ export default function page() {
 							<div className="inline-flex space-x-2 items-center">
 								<IoMdCall size={25} className="text-teal-300" />
 								<span className="text-cyan-100">
-									+(90) 533 602 45 56
+									+(90) 538 366 53 05
 								</span>
 							</div>
 							<div className="inline-flex space-x-2 items-center">
@@ -42,16 +49,16 @@ export default function page() {
 							</div>
 						</div>
 						<div className="flex space-x-4 text-lg">
-							<a>
+							<a href="" target="_">
 								<BsFacebook />
 							</a>
-							<a>
+							<a href="samsun_afrika_orgusu_alymcia" target="_">
 								<BsInstagram />
 							</a>
-							<a>
+							<a href="" target="_">
 								<BsTwitter />
 							</a>
-							<a>
+							<a href="" target="_">
 								<BsYoutube />
 							</a>
 						</div>
@@ -71,7 +78,7 @@ export default function page() {
 										type="text"
 										placeholder="Your name"
 										className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2
-                    outline-none focus:ring-2 focus:ring-teal-300"
+                    outline-none focus:ring-2 focus:ring-purple-300"
 									/>
 								</div>
 								<div>
@@ -81,7 +88,7 @@ export default function page() {
 										type="text"
 										placeholder="Your email address"
 										className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2
-                    outline-none focus:ring-2 focus:ring-teal-300"
+                    outline-none focus:ring-2 focus:ring-purple-300"
 									/>
 								</div>
 								<div>
@@ -92,7 +99,7 @@ export default function page() {
 										placeholder="Your email address"
 										rows={4}
 										className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2
-                    outline-none focus:ring-2 focus:ring-teal-300"
+                    outline-none focus:ring-2 focus:ring-purple-300"
 									/>
 								</div>
 								<button
