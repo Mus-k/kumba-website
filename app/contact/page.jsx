@@ -49,16 +49,16 @@ export default function page() {
 							</div>
 						</div>
 						<div className="flex space-x-4 text-lg">
-							<a href="" target="_">
+							<a href="#" target="_">
 								<BsFacebook />
 							</a>
 							<a href="samsun_afrika_orgusu_alymcia" target="_">
 								<BsInstagram />
 							</a>
-							<a href="" target="_">
+							<a href="#" target="_">
 								<BsTwitter />
 							</a>
-							<a href="" target="_">
+							<a href="#" target="_">
 								<BsYoutube />
 							</a>
 						</div>
