@@ -20,7 +20,7 @@ export default function Orgu() {
 					HERE IS WHERE YOU CAN FIND OUR BEAUTIFUL BRADING STYLES
 				</h1>
 			</div>
-			<div className="grid gap-10 md:grid-cols-2 md:gap-2 lg:gap-2 xl:gap-8 lg:grid-cols-3 items-center">
+			<div className="grid gap-10 md:grid-cols-2 md:gap-2 lg:gap-8 xl:gap-8 lg:grid-cols-3 items-center">
 				{orgu.map((item) => (
 					<div
 						key={item.id}
@@ -28,9 +28,9 @@ export default function Orgu() {
 					>
 						<div className="flex flex-col mb-8">
 							<div className="p-6 text-xl md:text-2xl">
-								<h1 className="text-white p-4">{item.title}</h1>
+								<h1 className="text-white text-[20px] p-4">{item.title}</h1>
 							</div>
-							<div>
+							<div className='flex flex-col items-center p-4 bg-white'>
 								<Image
 									src={`/orgu/${item.url}`}
 									width={300}
@@ -39,7 +39,7 @@ export default function Orgu() {
 									className="w-[380px] h-[400px] lg:w-[300px] lg:h-[400px] xl:w-[450px] xl:h-[500px]"
 								/>
 								{/* <p className="text-white py-2">&#36;{item.price}</p> */}
-								<div className="w-[300px] text-white p-4">
+								<div className="w-[300px] text-black p-4">
 									<h2>{item.desc}</h2>
 								</div>
 							</div>
