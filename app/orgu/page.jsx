@@ -28,15 +28,18 @@ export default function Orgu() {
 					>
 						<div className="flex flex-col mb-8">
 							<div className="p-6 text-xl md:text-2xl">
-								<h1 className="text-white text-[20px] p-4">{item.title}</h1>
+								<h1 className="text-white text-[20px] p-4">
+									{item.title}
+								</h1>
 							</div>
-							<div className='flex flex-col items-center p-4 bg-white'>
+							<div className="flex flex-col items-center p-4 bg-white">
 								<Image
 									src={`/orgu/${item.url}`}
 									width={300}
 									height={300}
 									alt={item.title}
-									className="w-[380px] h-[400px] lg:w-[300px] lg:h-[400px] xl:w-[450px] xl:h-[500px]"
+									className="w-[380px] h-[400px] lg:w-[300px] lg:h-[400px]
+									hover:scale-110 transition-all duration-500 xl:w-[450px] xl:h-[500px]"
 								/>
 								{/* <p className="text-white py-2">&#36;{item.price}</p> */}
 								<div className="w-[300px] text-black p-4">

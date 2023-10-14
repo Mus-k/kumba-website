@@ -28,10 +28,7 @@ export default function Services({ items }) {
 			<h1 className="text-3xl font-bold p-8 flex items-center">
 				OUR SERVICES
 			</h1>
-			<div
-				className="w-[100%] flex justify-center items-center flex-wrap
-	  md:flex-nowrap"
-			>
+			<div className="w-[100%] grid grid-cols-3 justify-center items-center flex-wrap md:flex-nowrap">
 				{items.map((item) => (
 					<div key={item.id} className="m-4 max-w-[450px] relative">
 						<Link href={item.url}>
@@ -43,9 +40,13 @@ export default function Services({ items }) {
 								height={500}
 								src={`/images/${item.src}`}
 								alt={item.title}
-								className="w-[100%] h-[350px] lg:h-[400px] object-cover"
+								className="w-[100%] h-[350px] lg:h-[400px] object-cover
+								hover:scale-110 transition-all duration-500"
 							/>
-							<button className="flex uppercase font-medium cursor-pointer hover:opacity-90  rounded-md text-black/[0.9] text-[15px] md:text-[24px] px-4 md:w-[200px] py-[10px] font-oswald bg-white absolute top-[85%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+							<button
+								className="flex uppercase font-medium
+							hover:scale-105 hover:bg-pink-200 transition-all duration-500 cursor-pointer hover:opacity-90  rounded-md text-black/[0.9] text-[15px] md:text-[24px] px-4 md:w-[200px] py-[10px] font-oswald bg-white absolute top-[85%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+							>
 								Fazlası gör
 							</button>
 						</Link>
