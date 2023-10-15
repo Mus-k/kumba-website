@@ -13,9 +13,14 @@
 .salonBtn {
   border-radius: 10px;
   border: none;
-  background-color: aliceblue;
+  background-color: rgb(17, 20, 22);
   padding: 10px;
   margin-top: 20px;
+  transition: all 1s ease-in;
+  color: #ffff;
+}
+.salonBtn:hover {
+  transform: scale(1.05);
 }
 .salon-left {
   padding: 20px;
