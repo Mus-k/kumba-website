@@ -1,3 +1,4 @@
+import '../styles/Services.css';
 import Image from 'next/image';
 import Link from 'next/link';
 //import Carousel from 'react-multi-carousel';
@@ -44,10 +45,14 @@ export default function Services({ items }) {
 								hover:scale-110 transition-all duration-500"
 							/>
 							<button
-								className="flex uppercase font-medium
-							hover:scale-105 hover:bg-pink-200 transition-all duration-500 cursor-pointer hover:opacity-90  rounded-md text-black/[0.9] text-[15px] md:text-[24px] px-4 md:w-[200px] py-[10px] font-oswald bg-white absolute top-[85%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+								className="buttonCl flex justify-center uppercase font-medium
+							hover:scale-105 transition-all
+							duration-500 cursor-pointer hover:opacity-90
+							rounded-md text-white/[0.9] text-[15px] md:text-[18px]
+							px-4 py-3 font-oswald absolute
+							top-[85%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"
 							>
-								Fazlası gör
+								See more
 							</button>
 						</Link>
 					</div>

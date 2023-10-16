@@ -37,6 +37,23 @@
   width: 100%;
   flex: 1;
 }
+/* BUTTON WITH GRADIANT ANIMATION RIMBO COLOR */
+.buttonCl:hover {
+	background-image: linear-gradient(
+		90deg,
+		#53cbef 0%,
+		#dcc66c 50%,
+		#ffa3b6 75%,
+		#53cbef 100%
+	);
+	animation: slidernbw 5s linear infinite;
+}
+
+@keyframes slidernbw {
+	to {
+		background-position: 20vw;
+	}
+}
 
 @media screen and (max-width: 700px) {
   .salon-container {

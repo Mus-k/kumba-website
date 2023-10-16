@@ -1,3 +1,4 @@
+import '../styles/Contact.css';
 import { IoMdCall } from 'react-icons/io';
 import { MdEmail, MdLocationOn } from 'react-icons/md';
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
@@ -14,8 +15,9 @@ export default function page() {
 		<div style={componentStyle} className="antialised bg-gray-100 my-0">
 			<div className="flex w-full min-h-screen justify-center items-center">
 				<div
-					className="flex flex-col pt-24 md:pt-12 md:mt-10 md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full
-        max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden"
+					className="flex flex-col pt-24 md:pt-12 md:mt-10 md:flex-row
+					md:space-x-6 space-y-6 md:space-y-0 bg-cyan-700 w-full max-w-4xl
+					p-8 sm:p-12 rounded-xl shadow-lg text-white overflow-hidden"
 				>
 					<div className="flex flex-col space-y-8 justify-between">
 						<div>
@@ -66,10 +68,19 @@ export default function page() {
 					{/*contact form on the right*/}
 					<div className="relative">
 						{/* Circles */}
-						<div className="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -right-28 -top-28"></div>
-						<div className="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -left-28 -bottom-20"></div>
+						<div
+							className="absolute z-0 w-40 h-40 bg-teal-400
+						rounded-full -right-28 -top-28"
+						></div>
+						<div
+							className="absolute z-0 w-40 h-40 bg-teal-400
+						rounded-full -left-28 -bottom-20"
+						></div>
 
-						<div className="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
+						<div
+							className="relative z-10 bg-white rounded-xl
+						shadow-lg p-8 text-gray-600 md:w-80"
+						>
 							<form className="flex flex-col space-y-4">
 								<div>
 									<label htmlFor="">Your Name</label>
@@ -78,7 +89,7 @@ export default function page() {
 										type="text"
 										placeholder="Your name"
 										className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2
-                    outline-none focus:ring-2 focus:ring-purple-300"
+										outline-none focus:ring-2 focus:ring-purple-300"
 									/>
 								</div>
 								<div>
@@ -88,7 +99,7 @@ export default function page() {
 										type="text"
 										placeholder="Your email address"
 										className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2
-                    outline-none focus:ring-2 focus:ring-purple-300"
+										outline-none focus:ring-2 focus:ring-purple-300"
 									/>
 								</div>
 								<div>
@@ -99,12 +110,12 @@ export default function page() {
 										placeholder="Your email address"
 										rows={4}
 										className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2
-                    outline-none focus:ring-2 focus:ring-purple-300"
+										outline-none focus:ring-2 focus:ring-purple-300"
 									/>
 								</div>
 								<button
-									className="inline-block self-end bg-cyan-700
-                text-white font-bold rounded-lg px-6 py-2 uppercase text-sm"
+									className="buttonCl inline-block self-end bg-cyan-700
+									text-white font-bold rounded-lg px-6 py-2 uppercase text-sm"
 								>
 									Send Message
 								</button>
