@@ -2,7 +2,7 @@ import "../styles/Products.css";
 
 export default function products() {
   return (
-    <div className="bg-teal-200 w-full min-h-screen flex justify-center items-center">
+    <div className="bg-teal-200 p-5 w-full min-h-screen flex justify-center items-center">
       <div class="card">
         <div class="content">
           <div class="back">
@@ -12,14 +12,15 @@ export default function products() {
           </div>
           <div class="front">
             <div class="front-content">
-              <small class="badge">Pasta</small>
+              <small class="badge">00.00TL</small>
               <div class="description">
                 <div class="title">
                   <p class="title">
                     <strong>Spaguetti Bolognese</strong>
                   </p>
+                  <p class="card-footer">order now</p>
                 </div>
-                <p class="card-footer">order now</p>
+               
               </div>
             </div>
           </div>
