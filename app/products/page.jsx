@@ -2,7 +2,6 @@ import "../styles/Products.css";
 import product from "../../public/products.json";
 import Image from "next/image";
 export default function products() {
-  console.log("new", product);
   return (
     <div className="product bg-teal-200">
       <h1 className="myProducts">My products</h1>
