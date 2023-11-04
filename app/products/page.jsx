@@ -5,8 +5,8 @@ export default function products() {
   console.log("new", product);
   return (
     <div className="product bg-teal-200">
-      <h1>My products</h1>
-      <div className="w-[100%] flex flex-row flex-wrap gap-3 items-center justify-center">
+      <h1 className="myProducts">My products</h1>
+      <div className="w-[100%] flex flex-row max-w-[1600px] flex-wrap gap-3 items-center justify-center">
         {product.map((productImg) => (
           <div key={productImg.id} class="card">
             <div class="content">
