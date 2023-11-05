@@ -26,7 +26,7 @@ const Footer = () => {
           <Link href="/about">
             <h1 className="font-bold text-2xl text-teal-500">About</h1>
           </Link>
-          <span className="text-white font-bold">
+          <span className="text-white text-left font-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eius
             explicabo ad magnam quia voluptatem soluta neque illum? Animi,
             necessitatibus.
@@ -36,7 +36,7 @@ const Footer = () => {
           <Link href="/contact">
             <h1 className="font-bold text-2xl text-teal-500">Contact</h1>
           </Link>
-          <span className="text-white font-bold">
+          <span className="text-white text-left font-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, eius
             explicabo ad magnam quia voluptatem soluta neque illum? Animi,
             necessitatibus.
