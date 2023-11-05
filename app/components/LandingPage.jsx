@@ -58,7 +58,7 @@ export default function LandingPage() {
 				-translate-x-1/2 -translate-y-1/2 md:h-[40%] w-[70%] bg-orange-300
 				opacity-50 overflow-hidden"
 			>
-				<h1 className="text-sm md:text-3xl text-blue-700 font-extrabold p-5">
+				<h1 className="text-sm md:text-xl lg:text-2xl text-blue-700 font-extrabold p-5">
 					WELCOME TO ALYMCIABRAIDING MASTERS
 				</h1>
 				<div className="w-[100%] h-full flex">
@@ -77,7 +77,7 @@ export default function LandingPage() {
 								<h1 className="text-blue-700 font-bold text-2xl">
 									{fullDate}
 								</h1>
-								<h1 className="text-sm md:text-2xl text-white">
+								<h1 className="text-md lg:text-xl text-white">
 									{landingslider.discrib}
 								</h1>
 							</div>
