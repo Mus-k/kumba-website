@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"title": "This is the FIRST slide",
+		"discrib": "FIRST LOREM ipsum dolor sit amet consectetur adipisicing elit.",
+		"url": "orgu1.jpg"
+	},
+	{
+		"id": 2,
+		"title": "This is the SECOND slide",
+		"discrib": "SECOND LOREM ipsum dolor sit amet consectetur adipisicing elit.",
+		"url": "png2.png"
+	},
+	{
+		"id": 3,
+		"title": "This is the THIRD slide",
+		"discrib": "THIRD LOREM ipsum dolor sit amet consectetur adipisicing elit.",
+		"url": "png3.png"
+	}
+]
