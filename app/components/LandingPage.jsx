@@ -1,9 +1,7 @@
 'use client';
 import '../styles/Slide.css';
 import '../styles/LandingSliders.css';
-import Slide from './Slide';
 import landingsliders from '../../public/landingsliders.json';
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
