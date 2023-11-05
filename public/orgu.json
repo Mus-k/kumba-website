@@ -1,129 +1,128 @@
 [
-	{
-		"id": 1,
-		"title": "Birnumaralı örgü modelleri",
-		"url": "orgu1.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 2,
-		"title": "İkinci örgü modelleri",
-		"url": "orgu2.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 3,
-		"title": "Üçüncü örgü modelleri",
-		"url": "orgu3.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 4,
-		"title": "Dördüncü örgü modelleri",
-		"url": "orgu4.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 5,
-		"title": "Beşinci örgü modelleri",
-		"url": "orgu5.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 6,
-		"title": "Altıncı örgü modelleri",
-		"url": "orgu6.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 7,
-		"title": "Yidinci örgü modelleri",
-		"url": "orgu7.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 8,
-		"title": "Sekizinci örgü modelleri",
-		"url": "orgu8.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 9,
-		"title": "Dokuzuncu örgü modelleri",
-		"url": "orgu9.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 10,
-		"title": "Onuncu örgü modelleri",
-		"url": "orgu10.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 11,
-		"title": "Onbirinci örgü modelleri",
-		"url": "orgu11.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 12,
-		"title": "Onikinci örgü modelleri",
-		"url": "orgu12.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 13,
-		"title": "Onüçüncü örgü modelleri",
-		"url": "orgu13.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 14,
-		"title": "Ondorduncu örgü modelleri",
-		"url": "orgu14.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 15,
-		"title": "Onbeşinci örgü modelleri",
-		"url": "orgu15.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 16,
-		"title": "Onaltıncı örgü modelleri",
-		"url": "orgu16.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 17,
-		"title": "Onbeşinci örgü modelleri",
-		"url": "orgu15.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	},
-	{
-		"id": 18,
-		"title": "Onaltıncı örgü modelleri",
-		"url": "orgu16.jpg",
-		"desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
-		"price": 200
-	}
-
+  {
+    "id": 1,
+    "title": "Birnumaralı örgü modelleri",
+    "url": "orgu1.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 2,
+    "title": "İkinci örgü modelleri",
+    "url": "orgu2.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 3,
+    "title": "Üçüncü örgü modelleri",
+    "url": "orgu3.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "title": "Dördüncü örgü modelleri",
+    "url": "orgu4.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 5,
+    "title": "Beşinci örgü modelleri",
+    "url": "orgu5.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 6,
+    "title": "Altıncı örgü modelleri",
+    "url": "orgu6.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 7,
+    "title": "Yidinci örgü modelleri",
+    "url": "orgu7.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 8,
+    "title": "Sekizinci örgü modelleri",
+    "url": "orgu8.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 9,
+    "title": "Dokuzuncu örgü modelleri",
+    "url": "orgu9.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 10,
+    "title": "Onuncu örgü modelleri",
+    "url": "orgu10.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 11,
+    "title": "Onbirinci örgü modelleri",
+    "url": "orgu11.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 12,
+    "title": "Onikinci örgü modelleri",
+    "url": "orgu12.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 13,
+    "title": "Onüçüncü örgü modelleri",
+    "url": "orgu13.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 14,
+    "title": "Ondorduncu örgü modelleri",
+    "url": "orgu14.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 15,
+    "title": "Onbeşinci örgü modelleri",
+    "url": "orgu15.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 16,
+    "title": "Onaltıncı örgü modelleri",
+    "url": "orgu14.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 17,
+    "title": "Onbeşinci örgü modelleri",
+    "url": "orgu15.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  },
+  {
+    "id": 18,
+    "title": "Onaltıncı örgü modelleri",
+    "url": "orgu12.jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam quibusdam maiores minus debitis dolorum.",
+    "price": 200
+  }
 ]
