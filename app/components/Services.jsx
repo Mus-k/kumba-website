@@ -29,7 +29,7 @@ export default function Services({ items }) {
 			<h1 className="text-3xl font-bold p-8 flex items-center">
 				OUR SERVICES
 			</h1>
-			<div className="w-[100%] grid grid-cols-3 justify-center items-center flex-wrap md:flex-nowrap">
+			<div className="w-[100%] grid md:grid-cols-3 justify-center items-center">
 				{items.map((item) => (
 					<div key={item.id} className="m-4 max-w-[450px] relative">
 						<Link href={item.url}>

@@ -16,7 +16,7 @@ export default function Orgu() {
 			className="pt-[90px] flex flex-col justify-center items-center w-full"
 		>
 			<div className="my-12">
-				<h1 className="text-2xl text-white">
+				<h1 className="text-sm md:text-2xl  text-white text-center">
 					HERE IS WHERE YOU CAN FIND OUR BEAUTIFUL BRADING STYLES
 				</h1>
 			</div>
