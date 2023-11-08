@@ -38,7 +38,7 @@ export default function LandingPage() {
 
 	if (currentDay >= 1 && currentDay <= 6) {
 		// Monday (1) to Saturday (6)
-		if (currentHour >= 9 && currentHour < 20) {
+		if (currentHour >= 10 && currentHour < 20) {
 			message = 'We are Open...';
 			textColor = 'green';
 		} else {
