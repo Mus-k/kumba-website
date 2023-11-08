@@ -1,9 +1,14 @@
+'use client';
 import '../styles/Contact.css';
 import { IoMdCall } from 'react-icons/io';
 import { MdEmail, MdLocationOn } from 'react-icons/md';
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
+import ShopLocation from '../components/ShopLocation ';
 
 export default function page() {
+	//Location code
+	const location = { lat: 41.33690702095747, lng: 36.25572679087917 };
+
 	const componentStyle = {
 		backgroundImage: "url('/orgu/contactbg.jpg')",
 		backgroundSize: 'cover',
@@ -24,11 +29,7 @@ export default function page() {
 							<h1 className="font-bold text-4xl tracking-wide text-white">
 								Contact Us
 							</h1>
-							<p className="pt-2 text-cyan-100 text-sm">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Debitis distinctio nobis possimus accusamus quas
-								sapiente!
-							</p>
+							<ShopLocation location={location} />
 						</div>
 						<div className="flex flex-col space-y-6">
 							<div className="inline-flex space-x-2 items-center">
@@ -51,10 +52,16 @@ export default function page() {
 							</div>
 						</div>
 						<div className="flex space-x-4 text-lg">
-							<a href="#" target="_">
+							<a
+								href="https://www.facebook.com/afrikaorgususamsun/"
+								target="_"
+							>
 								<BsFacebook />
 							</a>
-							<a href="samsun_afrika_orgusu_alymcia" target="_">
+							<a
+								href="https://www.instagram.com/samsun_afrika_orgusu_alymcia/"
+								target="_"
+							>
 								<BsInstagram />
 							</a>
 							<a href="#" target="_">

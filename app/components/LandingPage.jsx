@@ -38,7 +38,7 @@ export default function LandingPage() {
 
 	if (currentDay >= 1 && currentDay <= 6) {
 		// Monday (1) to Saturday (6)
-		if (currentHour >= 8 && currentHour < 21) {
+		if (currentHour >= 9 && currentHour < 20) {
 			message = 'We are Open...';
 			textColor = 'green';
 		} else {
@@ -107,6 +107,8 @@ export default function LandingPage() {
 									style={{ color: textColor }}
 								>
 									{message}
+									{/* LOADER */}
+									{/* <img src="https://www.7thheavenproperties.com/wp-content/themes/7thheavenproperties/img/lightbox/loading.gif" alt="loader" /> */}
 								</h1>
 								<h1 className="text-md lg:text-xl text-white">
 									{landingslider.discrib}
